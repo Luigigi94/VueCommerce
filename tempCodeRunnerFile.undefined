@@ -1,0 +1,405 @@
+{
+  "root": {
+    "rateIn": {
+      "quoteId": { "@value": "10274" },
+      "channel": { "@value": "CT" },
+      "agentId": { "@value": "9009" },
+      "startDate": { "@value": "28/03/2022" },
+      "endDate": { "@value": "28/03/2023" },
+      "startEndorsementDate": { "@value": "" },
+      "endEndorsementDate": { "@value": "" },
+      "isNewPolicy": { "@value": "1" },
+      "isEndorsement": { "@value": "0" },
+      "isRenewal": { "@value": "0" },
+      "paymentMethod": { "@value": "" },
+      "paymentFrequency": { "@value": "" },
+      "Discount1": { "@value": "0" },
+      "Discount2": { "@value": "0" },
+      "Discount3": { "@value": "0" },
+      "Discount4": { "@value": "0" },
+      "Discount5": { "@value": "0" },
+      "productId": { "@value": "" },
+      "operativeId": { "@value": "38" },
+      "versionId": { "@value": "" },
+      "riesgo": { "@value": "1" },
+      "quotes": {
+        "quoteIn": [
+          {
+            "quoteId": { "@value": "10274" },
+            "bundleId": { "@value": "1" },
+            "coverages": {
+              "coverageIn": [
+                {
+                  "coverageId": { "@value": "4" },
+                  "coverageSum": { "@value": "2000000" },
+                  "deductibleIdCoverage": { "@value": "4" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "7" },
+                  "coverageSum": { "@value": "0" },
+                  "deductibleIdCoverage": { "@value": "7" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "6" },
+                  "coverageSum": { "@value": "0" },
+                  "deductibleIdCoverage": { "@value": "6" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "21" },
+                  "coverageSum": { "@value": "50000" },
+                  "deductibleIdCoverage": { "@value": "21" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "22" },
+                  "coverageSum": { "@value": "100000" },
+                  "deductibleIdCoverage": { "@value": "22" },
+                  "deductibleCoverage": { "@value": "0" }
+                }
+              ]
+            }
+          },
+          {
+            "quoteId": { "@value": "10274" },
+            "bundleId": { "@value": "2" },
+            "coverages": {
+              "coverageIn": [
+                {
+                  "coverageId": { "@value": "4" },
+                  "coverageSum": { "@value": "2000000" },
+                  "deductibleIdCoverage": { "@value": "4" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "3" },
+                  "coverageSum": { "@value": "125302" },
+                  "deductibleIdCoverage": { "@value": "3" },
+                  "deductibleCoverage": { "@value": "10" }
+                },
+                {
+                  "coverageId": { "@value": "5" },
+                  "coverageSum": { "@value": "2000000" },
+                  "deductibleIdCoverage": { "@value": "5" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "7" },
+                  "coverageSum": { "@value": "0" },
+                  "deductibleIdCoverage": { "@value": "7" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "6" },
+                  "coverageSum": { "@value": "0" },
+                  "deductibleIdCoverage": { "@value": "6" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "21" },
+                  "coverageSum": { "@value": "50000" },
+                  "deductibleIdCoverage": { "@value": "21" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "22" },
+                  "coverageSum": { "@value": "100000" },
+                  "deductibleIdCoverage": { "@value": "22" },
+                  "deductibleCoverage": { "@value": "0" }
+                }
+              ]
+            }
+          },
+          {
+            "quoteId": { "@value": "10274" },
+            "bundleId": { "@value": "3" },
+            "coverages": {
+              "coverageIn": [
+                {
+                  "coverageId": { "@value": "4" },
+                  "coverageSum": { "@value": "3000000" },
+                  "deductibleIdCoverage": { "@value": "4" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "3" },
+                  "coverageSum": { "@value": "125302" },
+                  "deductibleIdCoverage": { "@value": "3" },
+                  "deductibleCoverage": { "@value": "10" }
+                },
+                {
+                  "coverageId": { "@value": "5" },
+                  "coverageSum": { "@value": "2000000" },
+                  "deductibleIdCoverage": { "@value": "5" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "1" },
+                  "coverageSum": { "@value": "125302" },
+                  "deductibleIdCoverage": { "@value": "1" },
+                  "deductibleCoverage": { "@value": "5" }
+                },
+                {
+                  "coverageId": { "@value": "2" },
+                  "coverageSum": { "@value": "0" },
+                  "deductibleIdCoverage": { "@value": "2" },
+                  "deductibleCoverage": { "@value": "20" }
+                },
+                {
+                  "coverageId": { "@value": "8" },
+                  "coverageSum": { "@value": "100000" },
+                  "deductibleIdCoverage": { "@value": "8" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "7" },
+                  "coverageSum": { "@value": "0" },
+                  "deductibleIdCoverage": { "@value": "7" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "6" },
+                  "coverageSum": { "@value": "0" },
+                  "deductibleIdCoverage": { "@value": "6" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "13" },
+                  "coverageSum": { "@value": "29000" },
+                  "deductibleIdCoverage": { "@value": "13" },
+                  "deductibleCoverage": { "@value": "25" }
+                },
+                {
+                  "coverageId": { "@value": "15" },
+                  "coverageSum": { "@value": "11000" },
+                  "deductibleIdCoverage": { "@value": "15" },
+                  "deductibleCoverage": { "@value": "25" }
+                },
+                {
+                  "coverageId": { "@value": "14" },
+                  "coverageSum": { "@value": "30000" },
+                  "deductibleIdCoverage": { "@value": "14" },
+                  "deductibleCoverage": { "@value": "25" }
+                },
+                {
+                  "coverageId": { "@value": "21" },
+                  "coverageSum": { "@value": "50000" },
+                  "deductibleIdCoverage": { "@value": "21" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "22" },
+                  "coverageSum": { "@value": "100000" },
+                  "deductibleIdCoverage": { "@value": "22" },
+                  "deductibleCoverage": { "@value": "0" }
+                }
+              ]
+            }
+          },
+          {
+            "quoteId": { "@value": "10274" },
+            "bundleId": { "@value": "4" },
+            "coverages": {
+              "coverageIn": [
+                {
+                  "coverageId": { "@value": "4" },
+                  "coverageSum": { "@value": "3000000" },
+                  "deductibleIdCoverage": { "@value": "4" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "3" },
+                  "coverageSum": { "@value": "125302" },
+                  "deductibleIdCoverage": { "@value": "3" },
+                  "deductibleCoverage": { "@value": "10" }
+                },
+                {
+                  "coverageId": { "@value": "5" },
+                  "coverageSum": { "@value": "2000000" },
+                  "deductibleIdCoverage": { "@value": "5" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "1" },
+                  "coverageSum": { "@value": "125302" },
+                  "deductibleIdCoverage": { "@value": "1" },
+                  "deductibleCoverage": { "@value": "5" }
+                },
+                {
+                  "coverageId": { "@value": "2" },
+                  "coverageSum": { "@value": "0" },
+                  "deductibleIdCoverage": { "@value": "2" },
+                  "deductibleCoverage": { "@value": "20" }
+                },
+                {
+                  "coverageId": { "@value": "8" },
+                  "coverageSum": { "@value": "250000" },
+                  "deductibleIdCoverage": { "@value": "8" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "9" },
+                  "coverageSum": { "@value": "100000" },
+                  "deductibleIdCoverage": { "@value": "9" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "10" },
+                  "coverageSum": { "@value": "0" },
+                  "deductibleIdCoverage": { "@value": "10" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "11" },
+                  "coverageSum": { "@value": "10000" },
+                  "deductibleIdCoverage": { "@value": "11" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "7" },
+                  "coverageSum": { "@value": "0" },
+                  "deductibleIdCoverage": { "@value": "7" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "6" },
+                  "coverageSum": { "@value": "0" },
+                  "deductibleIdCoverage": { "@value": "6" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "21" },
+                  "coverageSum": { "@value": "50000" },
+                  "deductibleIdCoverage": { "@value": "21" },
+                  "deductibleCoverage": { "@value": "0" }
+                },
+                {
+                  "coverageId": { "@value": "22" },
+                  "coverageSum": { "@value": "100000" },
+                  "deductibleIdCoverage": { "@value": "22" },
+                  "deductibleCoverage": { "@value": "0" }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "risk": {
+        "AdaptyconversionesPrevious": { "@value": "0" },
+        "age": { "@value": "31" },
+        "agentCommercialDiscount_Default": { "@value": "0" },
+        "agePrevious": { "@value": "" },
+        "birthdate": { "@value": "" },
+        "birthdatePrevious": { "@value": "" },
+        "brandDescription": { "@value": "SEAT" },
+        "brandDescriptionPrevious": { "@value": "" },
+        "brandId": { "@value": "33" },
+        "brandIdPrevious": { "@value": "" },
+        "bundleIdPrevious": { "@value": "" },
+        "cc": { "@value": "L4" },
+        "ccPrevious": { "@value": "" },
+        "children": { "@value": "" },
+        "childrenPrevious": { "@value": "" },
+        "commissionPrevious": { "@value": "" },
+        "commissionRisk": { "@value": "10" },
+        "configurationId": { "@value": "COMPACTO" },
+        "configurationIdPrevious": { "@value": "" },
+        "Discount1Previous": { "@value": "" },
+        "Discount2Previous": { "@value": "" },
+        "Discount3Previous": { "@value": "" },
+        "Discount4Previous": { "@value": "" },
+        "Discount5Previous": { "@value": "" },
+        "dispositivoAntirrobo": { "@value": "" },
+        "dispositivoAntirroboPrevious": { "@value": "" },
+        "doors": { "@value": "4 PUERTAS" },
+        "doorsPrevious": { "@value": "" },
+        "driverID": { "@value": "" },
+        "driverIDPrevious": { "@value": "" },
+        "exceptionDeductiblePP": { "@value": "1" },
+        "EquipoEspecialPrevious": { "@value": "" },
+        "exceptionDeductiblePPPrevious": { "@value": "" },
+        "exceptionDeductiblePT": { "@value": "1" },
+        "exceptionDeductiblePTPrevious": { "@value": "" },
+        "firstDriverIdDate": { "@value": "19900626" },
+        "firstDriverIdDatePrevious": { "@value": "" },
+        "fuelType": { "@value": "GASOLINA" },
+        "fuelTypePrevious": { "@value": "" },
+        "gender": { "@value": "M" },
+        "genderPrevious": { "@value": "" },
+        "holderId": { "@value": "" },
+        "holderScore": { "@value": "" },
+        "holderScorePrevious": { "@value": "" },
+        "isVehicleNew": { "@value": "1" },
+        "isVehicleNewPrevious": { "@value": "" },
+        "lossNumberPrevious": { "@value": "" },
+        "mainDriver": { "@value": "" },
+        "mainDriverPrevious": { "@value": "" },
+        "maritalStatus": { "@value": "" },
+        "maritalStatusPrevious": { "@value": "" },
+        "modelDescription": { "@value": "SEAT TOLEDO" },
+        "modelDescriptionPrevious": { "@value": "" },
+        "modelId": { "@value": "ASETO0541G" },
+        "modelIDDescription": { "@value": "COMPACTO" },
+        "modelIDDescriptionPrevious": { "@value": "" },
+        "modelIdPrevious": { "@value": "" },
+        "MuertedelconductorPrevious": { "@value": "" },
+        "Municipality": { "@value": "110" },
+        "MunicipalityPrevious": { "@value": "" },
+        "nationality": { "@value": "" },
+        "nationalityPrevious": { "@value": "" },
+        "noClaimsBonus": { "@value": "" },
+        "noClaimsBonusPrevious": { "@value": "" },
+        "overnightStayZipCode": { "@value": "" },
+        "overnightStayZipCodePrevious": { "@value": "" },
+        "passagersNumber": { "@value": "5" },
+        "passagersNumberPrevious": { "@value": "" },
+        "personType": { "@value": "" },
+        "personTypePrevious": { "@value": "" },
+        "poliza": { "@value": "" },
+        "polizaPrevious": { "@value": "" },
+        "polizaType": { "@value": "Individual" },
+        "PortabilidadCoberturasPrevious": { "@value": "" },
+        "power": { "@value": "122 CP" },
+        "powerPrevious": { "@value": "" },
+        "PremiumPrevious": { "@value": "" },
+        "referenceValue": { "@value": "125302" },
+        "referenceValuepercentage": { "@value": "" },
+        "referenceValuepercentagePrevious": { "@value": "" },
+        "referenceValuePrevious": { "@value": "" },
+        "renewGroup": { "@value": "0" },
+        "renewGroupPrevious": { "@value": "" },
+        "renewType": { "@value": "" },
+        "renewTypePrevious": { "@value": "" },
+        "ResponsabilidadCivilDanosPrevious": { "@value": "" },
+        "riskCategory": { "@value": "Particular" },
+        "riskCategoryPrevious": { "@value": "" },
+        "RoboParcialPrevious": { "@value": "" },
+        "secondDriver": { "@value": "0" },
+        "secondDriverage": { "@value": "" },
+        "secondDrivergender": { "@value": "" },
+        "secondDriverIdDate": { "@value": "" },
+        "secondDriverIdDatePrevious": { "@value": "" },
+        "shieldedPrevious": { "@value": "" },
+        "state": { "@value": "015" },
+        "statePrevious": { "@value": "" },
+        "vehicleAge": { "@value": "6" },
+        "vehicleAgePrevious": { "@value": "" },
+        "vehicleCode": { "@value": "" },
+        "vehicleCodePrevious": { "@value": "" },
+        "versionDescription": {
+          "@value": "STYLE L4 1.4T 122 CP 4 PUERTAS AUT  BA AA"
+        },
+        "versionDescriptionPrevious": { "@value": "" },
+        "weight": { "@value": "" },
+        "weightPrevious": { "@value": "" },
+        "yearModel": { "@value": "2016" },
+        "yearModelPrevious": { "@value": "" },
+        "insurancetype": { "@value": "1" },
+        "max_disc": { "@value": "45" },
+        "Additional_commission": { "@value": "35" }
+      }
+    }
+  }
+}

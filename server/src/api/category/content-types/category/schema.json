@@ -19,6 +19,12 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "productos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::producto.producto",
+      "mappedBy": "category"
     }
   }
 }

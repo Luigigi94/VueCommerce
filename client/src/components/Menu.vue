@@ -4,13 +4,13 @@
       <div class="left menu">
         <router-link class="item" to="/">
           <img src="@/assets/logo.png" alt="Ecommerce" class="ui small image" />
+          <template v-for="category in categorias" :key="category.id">
+            <router-link class="item" :to="category.attributes.slug">
+              {{ category.attributes.title }}
+            </router-link>
+          </template>
         </router-link>
       </div>
-      <template v-for="category in categorias" :key="category.id">
-        <router-link class="item" to="category.slug">{{
-          category.title
-        }}</router-link>
-      </template>
 
       <div class="right menu">
         <router-link class="item" to="/login" v-if="!token">
@@ -40,8 +40,7 @@ export default {
 
     onMounted(async () => {
       const response = await getCategoriesApi();
-      categorias.value = response;
-      console.log(categorias.value);
+      categorias.value = response.data;
     });
 
     const logout = () => {

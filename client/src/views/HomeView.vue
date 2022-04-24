@@ -31,7 +31,7 @@ export default {
     let products = ref(null);
 
     onMounted(async () => {
-      const response = await getProducts(8);
+      const response = await getProducts(3);
       products.value = response.data;
     });
 

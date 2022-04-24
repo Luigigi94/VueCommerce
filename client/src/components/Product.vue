@@ -1,14 +1,24 @@
 <template>
   <div class="ui card product">
     <div class="image">
-      <img
-        :src="API_URL + Producto.attributes.image.data.attributes.url"
-        :alt="Producto.attributes.Name"
-      />
+      <template v-if="haveCategory === undefined">
+        <img
+          :src="API_URL + Producto.attributes.image.data.attributes.url"
+          :alt="Producto.attributes.Name"
+        />
+      </template>
+      <template v-else>
+        {{ Producto }}
+      </template>
     </div>
     <div class="content">
-      <div class="header">{{ Producto.attributes.Name }}</div>
-      <div class="description">${{ Producto.attributes.Price }}</div>
+      <template v-if="haveCategory === undefined">
+        <div class="header">{{ Producto.attributes.Name }}</div>
+        <div class="description">${{ Producto.attributes.Price }}</div>
+      </template>
+      <template v-else>
+        <!-- {{ Producto.attributes.Price }} -->
+      </template>
     </div>
     <div class="ui button primary">comprar</div>
   </div>
@@ -16,15 +26,26 @@
 
 <script>
 import { API_URL } from "../utils/constants.js";
-
+import { getProductsCategory } from "../api/Products";
+import { onMounted, ref, useTransitionState } from "vue";
+import { useRoute } from "vue-router";
 export default {
   name: "Product",
   props: {
     Producto: Object,
   },
-  setup(props) {
+  watch: {
+    $route(to, from) {},
+  },
+  setup() {
+    let haveCategory = ref(null);
+    const { params } = useRoute();
+    haveCategory = JSON.stringify(params.category);
+    // console.log(haveCategory);
+
     return {
       API_URL,
+      haveCategory,
     };
   },
 };

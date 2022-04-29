@@ -1,51 +1,37 @@
 <template>
   <div class="ui card product">
     <div class="image">
-      <template v-if="haveCategory === undefined">
-        <img
-          :src="API_URL + Producto.attributes.image.data.attributes.url"
-          :alt="Producto.attributes.Name"
-        />
-      </template>
-      <template v-else>
-        {{ Producto }}
-      </template>
+      <img
+        :src="API_URL + product.attributes.image.data.attributes.url"
+        :alt="product.attributes.Name"
+        width="400"
+        height="400"
+      />
     </div>
     <div class="content">
-      <template v-if="haveCategory === undefined">
-        <div class="header">{{ Producto.attributes.Name }}</div>
-        <div class="description">${{ Producto.attributes.Price }}</div>
-      </template>
-      <template v-else>
-        <!-- {{ Producto.attributes.Price }} -->
-      </template>
+      <div class="header">
+        {{ product.attributes.Name }}
+      </div>
+      <div class="description">${{ product.attributes.Price }}</div>
     </div>
-    <div class="ui button primary">comprar</div>
+    <div class="ui button primary" @click="addProductCartApi(product.id)">
+      Comprar
+    </div>
   </div>
 </template>
 
 <script>
-import { API_URL } from "../utils/constants.js";
-import { getProductsCategory } from "../api/Products";
-import { onMounted, ref, useTransitionState } from "vue";
-import { useRoute } from "vue-router";
+import { API_URL } from "../utils/constants";
+import { addProductCartApi } from "../api/cart";
 export default {
   name: "Product",
   props: {
-    Producto: Object,
-  },
-  watch: {
-    $route(to, from) {},
+    product: Object,
   },
   setup() {
-    let haveCategory = ref(null);
-    const { params } = useRoute();
-    haveCategory = JSON.stringify(params.category);
-    // console.log(haveCategory);
-
     return {
       API_URL,
-      haveCategory,
+      addProductCartApi,
     };
   },
 };
@@ -59,6 +45,10 @@ export default {
     }
   }
 
+  .image {
+    height: 50%;
+    width: auto;
+  }
   .ui.button {
     max-height: 0;
     min-height: 0;

@@ -18,7 +18,9 @@
         </router-link>
         <template v-if="token">
           <router-link to="/orders" class="item">Pedidos</router-link>
-          <span class="ui item cart"><i class="shopping cart icon"></i></span>
+          <span class="ui item cart" @click="openCart"
+            ><i class="shopping cart icon"></i
+          ></span>
           <span class="ui item logout" @click="logout">
             <i class="power off icon"></i>
           </span>
@@ -30,6 +32,7 @@
 
 <script>
 import { ref, onMounted } from "vue";
+import { useStore } from "vuex";
 import { getTokenApi, deleteTokenApi } from "../api/token";
 import { getCategoriesApi } from "../api/category";
 export default {
@@ -37,6 +40,7 @@ export default {
   setup() {
     let categorias = ref(null);
     const token = getTokenApi();
+    const store = useStore();
 
     onMounted(async () => {
       const response = await getCategoriesApi();
@@ -47,10 +51,15 @@ export default {
       deleteTokenApi();
       location.replace("/");
     };
+
+    const openCart = () => {
+      store.commit("setShowCart", true);
+    };
     return {
       token,
       logout,
       categorias,
+      openCart,
     };
   },
 };

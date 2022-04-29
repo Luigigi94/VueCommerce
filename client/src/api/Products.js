@@ -29,6 +29,7 @@ export async function getProductsCategory(category) {
     const qs = require("qs");
     const query = qs.stringify(
       {
+        populate: "image",
         filters: {
           category: {
             slug: {

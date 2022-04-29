@@ -6,7 +6,7 @@
         v-for="product in products"
         :key="product.id"
       >
-        <Product :Producto="product" />
+        <Product :product="product" />
       </div>
     </div>
   </BasicLayout>
@@ -18,6 +18,7 @@ import Product from "../components/Product";
 import { getProductsCategory } from "../api/Products";
 import { onMounted, ref } from "vue";
 import { useRoute } from "vue-router";
+
 export default {
   name: "CategoryView",
   components: {
@@ -32,15 +33,14 @@ export default {
   setup() {
     let products = ref(null);
     const { params } = useRoute();
-    //console.log("Route", params.category);
+
     onMounted(() => {
       getProducts(params.category);
     });
 
     const getProducts = async (category) => {
       const response = await getProductsCategory(category);
-      // console.log("response de categorias: ", response);
-      products.value = response;
+      products.value = response.data;
     };
 
     return {
